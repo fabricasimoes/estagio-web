@@ -1,0 +1,140 @@
+.titulo-1 {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.titulo-1 > * {
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: #2f4d90;color:white;}
+footer {
+	background: #aaa;
+	color:white;
+	margin-top:100px;
+	}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
+.conteudo-1 {
+    padding: 5px 60px 5px 60px;
+	text-align: left;
+}
+
+.conteudo { 
+	  display: inline-table;
+	  width: 250px;
+      height: 250px;
+	  margin: 10px;
+
+}
+
+.conteudo-view { 	  
+	  text-align: center;
+	  margin: 10px;
+
+}
+
+
+.image { 
+
+	  width: 280px;
+      height: 280px;
+}
+
+.image-view { 
+
+	  width: 40%;
+}
+
+.autor-text{
+	position: absolute;
+    width: 20.7%;
+    margin-top: -148px;
+	word-wrap: break-word;
+	color: white; 
+   /*font: bold 4px/45px Helvetica, Sans-Serif; */
+   /*letter-spacing: -1px;  */
+   background: rgb(0, 0, 0); /* fallback color */
+   background: #337ab7;
+   padding: 10px 10px 2px 10px;
+   margin-right: 10px;
+}
+
+.autor-text-view{	
+   font: bold 14px/45px Helvetica, Sans-Serif;
+   /*letter-spacing: -1px;  */
+   padding: 10px 10px 2px 10px;
+   margin-right: 10px;
+}
+
+.descricao-view {
+    margin-top: 6%;
+    /* display: table-caption; */
+}
+
+span.glyphicon.glyphicon-calendar {
+    font-size: 12px;
+	color: #83aade;
+}
+
+.text{
+	position: absolute;
+    width: 280px;
+    height: 115px;
+    margin-top: -115px;
+	word-wrap: break-word;
+	color: white; 
+   /*font: bold 4px/45px Helvetica, Sans-Serif; */
+   /*letter-spacing: -1px;  */
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px 10px 2px 10px;
+   margin-right: 10px;
+}
+
+.h3, h3 {    
+    font: bold 32px Sans-Serif!important;
+    color: #004098!important;
+}
+
+.h4, h4 {
+    font: bold 13px Sans-Serif!important;
+}
+
+.h1, h1 {    
+    font-family: "Brush Script MT", cursive!important;    
+    font-style: normal;
+    font-variant: normal;
+    
+}
+
+label[for="data"], label[for="autor"] {
+    font-size: 12px;
+    color: #83aade;
+}
+
+.btn-group, .btn-group-vertical {    
+    margin-left: 80%;
+}
